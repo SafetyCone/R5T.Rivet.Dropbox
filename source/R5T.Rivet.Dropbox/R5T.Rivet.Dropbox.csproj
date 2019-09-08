@@ -4,4 +4,9 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Dropbox.Base\source\R5T.Dropbox.Base\R5T.Dropbox.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.NetStandard.Organizational\source\R5T.NetStandard.Organizational\R5T.NetStandard.Organizational.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Rivet.Organizational\source\R5T.Rivet.Organizational\R5T.Rivet.Organizational.csproj" />
+  </ItemGroup>
 </Project>
